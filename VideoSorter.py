@@ -5,7 +5,7 @@ import getopt
 import os
 import re
 
-USAGE_METHOD = 'VideoSorter.py -d <directory>'
+USAGE_METHOD = 'VideoSorter.py -d <scaningdir> -o <outputdir>'
 FILE_PATTERN = re.compile("^.*(\.mkv|\.m4v|\.avi)$", re.IGNORECASE)
 
 def main(argv):
